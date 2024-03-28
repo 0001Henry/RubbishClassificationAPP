@@ -1,0 +1,2 @@
+com/tencent/yolov8ncnn/test/BuildConfig.java
+ com.tencent.yolov8ncnn.test.BuildConfig

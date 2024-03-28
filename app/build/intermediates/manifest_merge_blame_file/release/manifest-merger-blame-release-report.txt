@@ -1,0 +1,197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.refuseclassification"
+4    android:versionCode="1"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->[:core] D:\ncnn-android-yolov8\core\build\intermediates\library_manifest\release\AndroidManifest.xml:7:9-38
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:6:5-65
+11-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature android:name="android.hardware.camera2.full" />
+13-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:7:5-66
+13-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:7:19-63
+14
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:8:5-71
+15-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:8:22-68
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:9:5-79
+16-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:10:5-67
+17-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:11:5-81
+18-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:9:5-79
+19-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 蓝牙录音使用，不需要可以去除 -->
+20-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:13:5-68
+20-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+21-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:14:5-75
+21-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:14:22-72
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:15:5-68
+22-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:15:22-65
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+23-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:16:5-80
+23-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:16:22-77
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+24-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:17:5-74
+24-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:17:22-71
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:6:5-65
+25-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:6:22-62
+26
+27    <uses-feature android:name="android.hardware.camera2.full" />
+27-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:7:5-66
+27-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:7:19-63
+28
+29    <application
+29-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:22:5-80:19
+30        android:name="org.litepal.LitePalApplication"
+30-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:23:9-54
+31        android:allowBackup="true"
+31-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:25:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.1] C:\Users\86136\.gradle\caches\transforms-2\files-2.1\4b3b915928c2508d0d11c4973faf66ac\core-1.0.1\AndroidManifest.xml:22:18-86
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/head"
+34-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:29:9-36
+35        android:label="智慧垃圾分类"
+35-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:24:9-31
+36        android:roundIcon="@mipmap/head"
+36-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:26:9-41
+37        android:supportsRtl="true"
+37-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:27:9-35
+38        android:theme="@style/AppTheme" >
+38-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:28:9-40
+39        <activity
+39-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:30:9-32:20
+40            android:name="com.tencent.yolov8ncnn.ImageSelectActivity"
+40-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:30:19-53
+41            android:screenOrientation="portrait" >
+41-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:31:19-55
+42        </activity>
+43        <activity
+43-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:33:9-40:20
+44            android:name="com.tencent.yolov8ncnn.MainActivity"
+44-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:33:19-46
+45            android:label="智慧垃圾分类"
+45-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:34:19-41
+46            android:screenOrientation="portrait" >
+46-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:35:19-55
+47
+48            <!-- <intent-filter> -->
+49            <!-- <action android:name="android.intent.action.MAIN" /> -->
+50            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+51            <!-- </intent-filter> -->
+52        </activity>
+53
+54        <meta-data
+54-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:44:9-46:40
+55            android:name="com.baidu.speech.APP_ID"
+55-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:45:13-51
+56            android:value="25415468" />
+56-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:46:13-37
+57        <meta-data
+57-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:47:9-49:56
+58            android:name="com.baidu.speech.API_KEY"
+58-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:48:13-52
+59            android:value="iCYsEmwScqNGAlzDbZcl7vh4" />
+59-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:49:13-53
+60        <meta-data
+60-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:50:9-52:64
+61            android:name="com.baidu.speech.SECRET_KEY"
+61-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:51:13-55
+62            android:value="WakD4dM6hykhHreHjQ5uNayIXnP3BSSp" />
+62-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:52:13-61
+63
+64        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.NotificationActivity" />
+64-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:54:9-79
+64-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:54:19-76
+65        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.AgreementActivity" />
+65-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:55:9-76
+65-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:55:19-73
+66        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.AboutActivity" />
+66-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:56:9-72
+66-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:56:19-69
+67        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.SearchActivity" />
+67-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:58:9-73
+67-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:58:19-70
+68        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.SpecialActivity" />
+68-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:59:9-74
+68-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:59:19-71
+69        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.ErrorProneActivity" />
+69-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:60:9-77
+69-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:60:19-74
+70        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.CommonActivity" />
+70-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:61:9-73
+70-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:61:19-70
+71        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.ExerciseActivity" />
+71-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:62:9-75
+71-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:62:19-72
+72        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.AnswerActivity" />
+72-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:63:9-73
+72-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:63:19-70
+73        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.TestActivity" />
+73-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:64:9-71
+73-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:64:19-68
+74        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.DryActivity" />
+74-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:65:9-70
+74-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:65:19-67
+75        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.WetActivity" />
+75-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:66:9-70
+75-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:66:19-67
+76        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.HarmfulActivity" />
+76-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:67:9-74
+76-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:67:19-71
+77        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.RecyclableActivity" />
+77-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:68:9-77
+77-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:68:19-74
+78        <activity
+78-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:69:9-71:34
+79            android:name="com.tencent.yolov8ncnn.refuseclassification.LoginActivity"
+79-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:70:13-63
+80            android:label="登录" />
+80-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:71:13-31
+81        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.StartActivity" >
+81-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:72:9-78:20
+81-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:72:19-69
+82            <intent-filter>
+82-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:73:13-77:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:74:17-69
+83-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:74:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:76:17-77
+85-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:76:27-74
+86            </intent-filter>
+87        </activity>
+88        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.HomeMainActivity" />
+88-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:79:9-75
+88-->D:\ncnn-android-yolov8\app\src\main\AndroidManifest.xml:79:19-72
+89
+90        <provider
+90-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\86136\.gradle\caches\transforms-2\files-2.1\d5bf213ef313131a575280ad28e35379\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+91            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\86136\.gradle\caches\transforms-2\files-2.1\d5bf213ef313131a575280ad28e35379\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+92            android:authorities="com.example.refuseclassification.lifecycle-process"
+92-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\86136\.gradle\caches\transforms-2\files-2.1\d5bf213ef313131a575280ad28e35379\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+93            android:exported="false"
+93-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\86136\.gradle\caches\transforms-2\files-2.1\d5bf213ef313131a575280ad28e35379\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+94            android:multiprocess="true" />
+94-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\86136\.gradle\caches\transforms-2\files-2.1\d5bf213ef313131a575280ad28e35379\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+95    </application>
+96
+97</manifest>

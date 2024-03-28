@@ -1,0 +1,26 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: x86_64",
+    "file": "D:\\ncnn-android-yolov8\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found from cmake.dir at \u0027C:\\Users\\86136\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "D:\\ncnn-android-yolov8\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027D:\\ncnn-android-yolov8\\app\\.cxx\\cmake\\release\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "D:\\ncnn-android-yolov8\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\ncnn-android-yolov8\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|x86_64"
+  }
+]

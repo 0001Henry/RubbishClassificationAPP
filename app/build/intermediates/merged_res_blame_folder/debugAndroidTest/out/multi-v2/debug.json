@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\86136\\.gradle\\caches\\transforms-2\\files-2.1\\4a6ab9e544ef1b36ea79be169881619c\\jetified-core-1.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7,10",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "176,327,474",
+                        "endLines": "6,9,12",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "326,473,622"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,210,361",
+                        "endLines": "4,7,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "205,356,509"
+                    }
+                }
+            ]
+        }
+    ]
+}

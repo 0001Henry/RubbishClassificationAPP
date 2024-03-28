@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tencent.yolov8ncnn"
+      android:versionCode="1"
+      android:versionName="1.2">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera2.full" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 蓝牙录音使用，不需要可以去除 -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:label="智慧垃圾分类"
+        android:allowBackup="true"
+        android:roundIcon="@mipmap/head"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:icon="@mipmap/head">
+        <activity android:name="ImageSelectActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="MainActivity"
+                  android:label="智慧垃圾分类"
+                  android:screenOrientation="portrait">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="25415468" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="iCYsEmwScqNGAlzDbZcl7vh4" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="WakD4dM6hykhHreHjQ5uNayIXnP3BSSp" />
+
+        <activity android:name=".refuseclassification.NotificationActivity" />
+        <activity android:name=".refuseclassification.AgreementActivity" />
+        <activity android:name=".refuseclassification.AboutActivity" />
+
+        <activity android:name=".refuseclassification.SearchActivity" />
+        <activity android:name=".refuseclassification.SpecialActivity" />
+        <activity android:name=".refuseclassification.ErrorProneActivity" />
+        <activity android:name=".refuseclassification.CommonActivity" />
+        <activity android:name=".refuseclassification.ExerciseActivity" />
+        <activity android:name=".refuseclassification.AnswerActivity" />
+        <activity android:name=".refuseclassification.TestActivity" />
+        <activity android:name=".refuseclassification.DryActivity" />
+        <activity android:name=".refuseclassification.WetActivity" />
+        <activity android:name=".refuseclassification.HarmfulActivity" />
+        <activity android:name=".refuseclassification.RecyclableActivity" />
+        <activity
+            android:name=".refuseclassification.LoginActivity"
+            android:label="登录" />
+        <activity android:name=".refuseclassification.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".refuseclassification.HomeMainActivity" />
+    </application>
+</manifest> 

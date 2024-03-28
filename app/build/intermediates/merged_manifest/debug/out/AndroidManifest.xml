@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.refuseclassification"
+    android:versionCode="1"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 蓝牙录音使用，不需要可以去除 -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/head"
+        android:label="智慧垃圾分类"
+        android:roundIcon="@mipmap/head"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tencent.yolov8ncnn.ImageSelectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tencent.yolov8ncnn.MainActivity"
+            android:label="智慧垃圾分类"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="25415468" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="iCYsEmwScqNGAlzDbZcl7vh4" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="WakD4dM6hykhHreHjQ5uNayIXnP3BSSp" />
+
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.NotificationActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.AgreementActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.AboutActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.SearchActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.SpecialActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.ErrorProneActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.CommonActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.ExerciseActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.AnswerActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.TestActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.DryActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.WetActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.HarmfulActivity" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.RecyclableActivity" />
+        <activity
+            android:name="com.tencent.yolov8ncnn.refuseclassification.LoginActivity"
+            android:label="登录" />
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.StartActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.yolov8ncnn.refuseclassification.HomeMainActivity" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.refuseclassification.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

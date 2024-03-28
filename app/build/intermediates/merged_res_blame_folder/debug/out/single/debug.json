@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wet.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\wet.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_score.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\score.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_circle.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\button_circle.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_image_circle.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\image_circle.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_wet.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_wet.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_answer.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\item_answer.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lj.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_lj.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_test.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\test.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_guide.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_guide.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_welcome_small_former.jpg.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\welcome_small_former.jpg"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_home_image_former.jpg.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\home_image_former.jpg"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_agreement.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_agreement.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_select.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\image_select.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_start.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_start.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_home.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\home.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_harmful.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\harmful.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_ic_launcher.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\mipmap\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_recyclable.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_recyclable.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_welcome_large.jpg.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\welcome_large.jpg"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_common.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\common.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dry.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_dry.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_recyclerview.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\item_recyclerview.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_common.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_common.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_setting.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\setting.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exercise.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_exercise.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_exercise.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\exercise.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dry.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\dry.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_recyclable.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\recyclable.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_answer.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_answer.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_person_default.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\person_default.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_harmful.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_harmful.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_select_photo.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\dialog_select_photo.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_special.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_special.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_dry.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_dry.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_home_image.jpg.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\home_image.jpg"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_head.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\mipmap\\head.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_recording.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\recording.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_setting.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_setting.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_camera2.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\camera2.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_error_prone.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_error_prone.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_menu.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\menu.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_home.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_home.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recyclable.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_recyclable.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_login.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_login.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_harmful.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\frag_harmful.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_errorprone.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\errorprone.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_searchview_circle.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\searchview_circle.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_wet.xml.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\layout\\activity_wet.xml"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_special.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\special.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_camera1.png.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\camera1.png"
+    },
+    {
+        "merged": "D:\\ncnn-android-yolov8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_welcome_small.jpg.flat",
+        "source": "D:\\ncnn-android-yolov8\\app\\src\\main\\res\\drawable-v24\\welcome_small.jpg"
+    }
+]
